@@ -10,11 +10,19 @@
 
     <title>Bootstrap Introduction</title>
     <style>
-      .wrap-col-color {
-         background-color: pink;
+      .wrap-col-space {
          border-radius: 7px;
          margin: 10px;
          border: 1px solid black;
+      }
+      .wrap-col--pink {
+         background-color: pink;
+      }
+      .wrap-col--brown {
+         background-color: brown;
+      }
+      .wrap-col--cream {
+         background-color: cream;
       }
     </style>
   </head>
@@ -23,35 +31,35 @@
 
     <div class="container d-flex flex-wrap">
       <div class="row align-items-start">
-        <div class="col">
+        <div class="col wrap-col-space wrap-col--brown">
           One of three columns
         </div>
-        <div class="col">
+        <div class="col wrap-col-space wrap-col--brown">
           One of three columns
         </div>
-        <div class="col">
+        <div class="col wrap-col-space wrap-col--brown">
           One of three columns
         </div>
       </div>
       <div class="row align-items-center">
-        <div class="col">
+        <div class="col wrap-col-space wrap-col--pink">
           One of three columns
         </div>
-        <div class="col">
+        <div class="col wrap-col-space wrap-col--pink">
           One of three columns
         </div>
-        <div class="col">
+        <div class="col wrap-col-space wrap-col--pink">
           One of three columns
         </div>
       </div>
       <div class="row align-items-end">
-        <div class="col wrap-col-color">
+        <div class="col wrap-col-space wrap-col--cream">
           One of three columns
         </div>
-        <div class="col wrap-col-color">
+        <div class="col wrap-col-space wrap-col--cream">
           One of three columns
         </div>
-        <div class="col wrap-col-color">
+        <div class="col wrap-col-space wrap-col--cream">
           One of three columns
         </div>
       </div>
