@@ -10,16 +10,19 @@
 
     <title>Bootstrap Introduction</title>
     <style>
+      .page-title {
+         margin: auto;
+      }
       .wrap-col-space {
          border-radius: 7px;
          margin: 10px;
          border: 1px solid black;
       }
       .wrap-col--pink {
-         background-color: pink;
+         background-color: peachpuff;
       }
       .wrap-col--brown {
-         background-color: peachpuff;
+         background-color: pink;
       }
       .wrap-col--cream {
          background-color: papayawhip;
@@ -27,9 +30,9 @@
     </style>
   </head>
   <body>
-    <h1>Bootstrap Introduction</h1>
+    <h1 class="page-title">Bootstrap Introduction</h1>
 
-    <div class="container d-flex flex-wrap">
+    <div class="container">
       <div class="row align-items-start">
         <div class="col wrap-col-space wrap-col--brown">
           One of three columns
@@ -52,7 +55,7 @@
           One of three columns
         </div>
       </div>
-      <div class="row align-items-end">
+      <div class="row align-items-end d-flex flex-wrap">
         <div class="col wrap-col-space wrap-col--cream">
           One of three columns
         </div>
