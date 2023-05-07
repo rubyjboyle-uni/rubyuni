@@ -2,26 +2,35 @@
 <html>
   <head>
     <title>Interactive Tech | IN4MATX 285 | Ruby Boyle</title>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
     <style>
       .landing-page__link {
         background-color: aliceblue;
         text-decoration: none;
         color:black;
         border: 1px solid black;
-        border-radius: 5px;
-        margin: auto;
-        padding: 4px;
+        border-radius: 20px;
+        padding: 9px;
       }
-      .nav-menu {
-        display: flex;
+      .landing-page__link:hover {
+        background-color: lightblue;
       }
       .landing-page__link-wrapper {
         margin: 5px;
       }
+      .nav-menu {
+        display: flex;
+      }
+      .landing-page__title {
+        font-family: 'Montserrat', sans-serif;
+      }
+
     </style>
   </head>
   <body>
-    <h1>Interactive Tech | IN4MATX 285 | Ruby Boyle</h1>
+    <h1 class="landing-page__title">Interactive Tech | IN4MATX 285 | Ruby Boyle</h1>
     <div class="nav-menu">
       <p class="landing-page__link-wrapper">
         <a class="landing-page__link" href="css_demo.html">CSS Demo</a>
